@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='relative max-w-[1224px] px-[40px] mx-auto h-full flex justify-between items-center py-1 md:py-4'>
             <div>
               <Link href='/'>
-                <Image src="/celullant.png" alt='Celullant' height={150} width={190} className="h-[40px] w-[70px] "/>
+                <Image src="/celullant.png" alt='Celullant' height={150} width={220} className="h-[40px] w-[90px] "/>
               </Link>
             </div>
             <ul className='hidden md:flex space-x-8 items-center justify-center'>
