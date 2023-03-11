@@ -24,4 +24,10 @@ a {
   /* font-family: 'Montserrat'; */
   text-decoration: none;
 }
+.btn{
+  transition:transform 300ms;
+}
+.btn:hover{
+  transform: translateY(-4px);
+}
 

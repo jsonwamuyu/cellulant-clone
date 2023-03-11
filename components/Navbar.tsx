@@ -5,7 +5,7 @@ import {FaCaretDown} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <nav className='bg-white shadow-lg w-full z-50'>
+    <nav className='fixed bg-white shadow-lg w-full z-50'>
         <div className='max-w-[1224px] px-[20px] mx-auto h-full flex justify-between items-center py-4'>
             <div>
               <Link href='/'>
