@@ -23,9 +23,14 @@ const Navbar = () => {
             </div>
             <ul className='hidden md:flex space-x-8 items-center justify-center'>
                 <li><Link href='#' className='font-bold hover:text-[#00aeea]'>Our Story</Link></li>
-                <li><Link href='#' className='font-bold hover:text-[#00aeea] flex items-center justify-center gap-1'>
+                <li className='relative'>
+                  <p className='font-bold hover:text-[#00aeea] flex items-center justify-center gap-1'>
                   Our Products <FaCaretDown size={20}/>
-                  </Link></li>
+                  </p>
+                  <div className="bg-white hidden hover:flex w-full h-auto py-4 px-2 absolute top-[3.05rem]">
+                    <Link href="/">Read me</Link>
+                  </div>
+                </li>
                   <li><Link href='#' className='font-bold hover:text-[#00aeea] flex items-center justify-center gap-1'>
                   News & Insights <FaCaretDown size={20}/>
                   </Link></li>
